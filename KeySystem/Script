@@ -123,6 +123,5 @@ local SupportedTab = Window:MakeTab({
 SupportedTab:AddLabel("Supported Places:")
 SupportedTab:AddLabel("Toy Simulator !")
 SupportedTab:AddLabel("Murder Mystery 2 !")
-SupportedTab:AddLabel("Короче MeoW0001 ебланит")
 
 OrionLib:Init()
