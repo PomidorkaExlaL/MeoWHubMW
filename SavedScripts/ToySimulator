@@ -1,32 +1,9 @@
---[[
-			MeoW Hub 
-		Supported games:
-		-Toy Simulator!
- 
-		GET KEY IN DISCORD SERVER
-		GET KEY IN DISCORD SERVER
- 
-    Credits:
-        Nickname: MeoW0001
-        Discord: .nightmeow
-		Discord server: https://discord.gg/Srr39Afzyp
---]]
- 
- 
- 
- 
- 
+
 if game.PlaceId == 12978425304 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "MW Hub 🧸 Toy Simulator", HidePremium = false, IntroEnabled = true, IntroText = "MW Hub", SaveConfig = false, IntroIcon = "rbxassetid://4335482118", ConfigFolder = "MeoW Hub"})
 
-
-
-
-
-
 -- Value's --
-
 
 _G.HitSpeed = true
 _G.AutoOpen = true
@@ -45,7 +22,6 @@ _G.TeleportType = true
 _G.ReallyDestroy = true
 _G.EnterPetDelete = "nil"
 _G.TPSystemKey = false
-
 
 function jumpEvery5Seconds(character)
     local humanoid = character:FindFirstChild("Humanoid")
