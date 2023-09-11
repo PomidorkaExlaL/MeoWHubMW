@@ -1,22 +1,4 @@
---[[
-			MeoW Hub 
-		Supported games:
-		-Toy Simulator!
- 
-		GET KEY IN DISCORD SERVER
-		GET KEY IN DISCORD SERVER
- 
-    Credits:
-        Nickname: MeoW0001
-        Discord: .nightmeow
-		Discord server: https://discord.gg/Srr39Afzyp
---]]
- 
- 
- 
- 
- 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local validKeys = {
     standard = {
