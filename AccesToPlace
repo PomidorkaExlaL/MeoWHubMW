@@ -1,9 +1,9 @@
 if game.PlaceId == 12978425304 then
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/HubKey(script)')))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/KeySystem/Script')))()
 elseif game.PlaceId == 142823291 then
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/HubKey(script)')))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/KeySystem/Script')))()
 elseif game.PlaceId == 142823291 then
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/HubKey(script)')))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/KeySystem/Script')))()
 else
 	game.Players.LocalPlayer:Kick("This place is not supported.")
 end
