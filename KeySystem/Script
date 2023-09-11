@@ -107,16 +107,16 @@ local submitButton = KeyTab:AddButton(
                 OrionLib:MakeNotification({Name = "Success!", Content = "Correct key! Loading Script!", Time = 5})
                 wait(5)
                 OrionLib:Destroy(window)
-                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptToySimulator.lua')))()
-                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptMurderMystery2.lua')))()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/Scripts/ToySimulator')))()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/Scripts/MurderMystery2')))()
                 -- $ more scripts $
             elseif  CheckKeyValidityPremium(enteredKeyPremium) then
                 OrionLib:MakeNotification({Name = "Success!", Content = "Correct key! Loading Script! (PREMIUM USER)", Time = 5})
                 wait(5)
                 OrionLib:Destroy(window)
-                
-                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptToySimulator(premium)')))()
-                
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/Scripts/Premium_ToySimulator')))()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/Scripts/Premium_MurderMystery2')))()
+                -- $ more scripts $
             else
                 OrionLib:MakeNotification({Name = "Error!", Content = "Uncorrect key!", Time = 5})
             end
