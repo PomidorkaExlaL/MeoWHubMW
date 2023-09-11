@@ -2,4 +2,5 @@
 -- Visit the Discord for GET KEY: https://discord.gg/Srr39Afzyp 
 -- Visit the Discord for GET KEY: https://discord.gg/Srr39Afzyp
 
-loadstring(game.HttpGet('https://pastebin.com/raw/LSBQeMSN'))();
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/KeySystem/MeoW_HUB_OBF')))();
+
