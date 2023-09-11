@@ -8,11 +8,24 @@ local validKeys = {
         "mwhub ",
         "mw hub",
         "mw hub ",
+        "MeoW Hub",
+        "MeoW Hub ",
+        "MeoWHub",
+        "meow hub",
+        "meow hub ",
+        "meowhub",
+        "FREE ",
+        "Free ",
+        "free ",
+        "FREE",
+        "Free",
         "free"
     },
     premium = {
         "paid",
-        "paid "
+        "paid ",
+        "Paid",
+        "Paid "
     },
 }
 
