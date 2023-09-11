@@ -1,1 +1,146 @@
-123
+--[[
+			MeoW Hub 
+		Supported games:
+		-Toy Simulator!
+ 
+		GET KEY IN DISCORD SERVER
+		GET KEY IN DISCORD SERVER
+ 
+    Credits:
+        Nickname: MeoW0001
+        Discord: .nightmeow
+		Discord server: https://discord.gg/Srr39Afzyp
+--]]
+ 
+ 
+ 
+ 
+ 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local validKeys = {
+    standard = {
+        "mw hub",
+        "mw hub ",
+        "mwhub",
+        "mwhub ",
+        "mw hub",
+        "mw hub ",
+        "free"
+    },
+    premium = {
+        "paid",
+        "paid "
+    },
+}
+
+local function CheckKeyValidity(key)
+    for _, validKey in ipairs(validKeys.standard) do
+        if key == validKey then
+            return true
+        end
+    end
+    return false
+end
+
+local function CheckKeyValidityPremium(key)
+    for _, validKey in ipairs(validKeys.premium) do
+        if key == validKey then
+            return true
+        end
+    end
+    return false
+end
+
+local enteredKey = ""
+local enteredKeyPremium = ""
+
+local Window = OrionLib:MakeWindow({
+    Name = "MeoW Hub (Key System)",
+    HidePremium = false,
+    SaveConfig = false,
+    ConfigFolder = "MW Hub Key",
+    IntroEnabled = true,
+    IntroText = "MeoW Hub-key",
+    IntroIcon = "rbxassetid://4335482118",
+    Icon = "rbxassetid://4483345737",
+    CloseCallback = function() 
+
+
+
+
+
+ end
+})
+
+
+local KeyTab = Window:MakeTab({
+    Name = "Key",
+    Icon = "rbxassetid://3944680095", 
+    PremiumOnly = false
+})
+
+KeyTab:AddButton({
+    Name = "CLICK TO COPY DISCORD LINK",
+    Callback = function()
+            setclipboard("https://discord.gg/Srr39Afzyp")
+            OrionLib:MakeNotification({
+            Name = "MeoW Hub",
+            Content = "Copied Discord Link!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end    
+})
+
+local keyInput = KeyTab:AddTextbox({
+    Name = "Enter Key",
+    Default = "Key here...",
+    TextDisappear = false,
+    Callback = function(Value)
+        enteredKey = Value
+        enteredKeyPremium = Value
+
+    end
+})
+
+local submitButton = KeyTab:AddButton(
+    {
+        Name = "Check Key",
+        Callback = function()
+            if CheckKeyValidity(enteredKey) then
+                OrionLib:MakeNotification({Name = "Success!", Content = "Correct key! Loading Script!", Time = 5})
+                wait(5)
+                OrionLib:Destroy(window)
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptToySimulator.lua')))()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptMurderMystery2.lua')))()
+                -- $ more scripts $
+            elseif  CheckKeyValidityPremium(enteredKeyPremium) then
+                OrionLib:MakeNotification({Name = "Success!", Content = "Correct key! Loading Script! (PREMIUM USER)", Time = 5})
+                wait(5)
+                OrionLib:Destroy(window)
+                
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWscripts/main/ScriptToySimulator(premium)')))()
+                
+            else
+                OrionLib:MakeNotification({Name = "Error!", Content = "Uncorrect key!", Time = 5})
+            end
+        end
+    }
+)
+
+KeyTab:AddLabel("Check the Discord for get free KEY !")
+
+
+local SupportedTab = Window:MakeTab({
+    Name = "Supported",
+    Icon = "rbxassetid://4335482118",
+    PremiumOnly = false
+})
+
+SupportedTab:AddLabel("Supported Places:")
+SupportedTab:AddLabel("Toy Simulator !")
+SupportedTab:AddLabel("Ну тут ебать ещё игры должны быть")
+SupportedTab:AddLabel("Да похуй пока их нет :(")
+
+OrionLib:Init()
