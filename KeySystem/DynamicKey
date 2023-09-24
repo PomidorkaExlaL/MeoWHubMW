@@ -1,0 +1,2 @@
+local someVariable = {"MeoW Hub", "MEOW HUB", "meow hub", "free"}
+return someVariable

@@ -1,3 +1,0 @@
--- В внешнем скрипте
-local someVariable = "Hello, World!"
-return someVariable
