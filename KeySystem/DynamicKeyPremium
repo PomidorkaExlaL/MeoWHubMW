@@ -1,0 +1,8 @@
+local DynamicKeyPremium = {
+    "MeoW Hub",
+    "MEOW HUB",
+    "meow hub",
+    "ABCFFFFFF",
+    "testkeyy"
+}
+return DynamicKeyPremium
