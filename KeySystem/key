@@ -1,2 +1,4 @@
 local LocalKey = "testkey1"
-_G.GlobalKey = "testkey2"
+_G.GlobalKey = "testkey53535"
+local LocalKey1 = key1
+_G.GlobalKey2 = key2
