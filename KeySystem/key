@@ -1,2 +1,2 @@
-local Key1 = "testkey"
-local Key2 = testkey
+local LocalKey = "testkey1"
+_G.GlobalKey = "testkey2"
