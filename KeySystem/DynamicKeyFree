@@ -1,2 +1,2 @@
-local DynamicFreeKeys = {"MeoW Hub", "MEOW HUB", "meow hub", "free", "abc123fff"}
+local DynamicFreeKeys = {"MeoW Hub", "MEOW HUB", "meow hub", "pizdec", "abc123fff"}
 return DynamicFreeKeys
