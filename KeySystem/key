@@ -1,4 +1,3 @@
-local LocalKey = "testkey1"
-_G.GlobalKey = "testkey53535"
-local LocalKey1 = LocalKey
-_G.GlobalKey2 = _G.GlobalKey
+-- В внешнем скрипте
+local someVariable = "Hello, World!"
+return someVariable
