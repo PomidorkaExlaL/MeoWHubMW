@@ -1,3 +1,6 @@
 
-local someVariable = {"MeoW Hub", "MEOW HUB", "meow hub", "free"}
-return someVariable
+-- local someVariable = {"MeoW Hub", "MEOW HUB", "meow hub", "free"}
+-- return someVariable
+
+local DynamicFreeKeys = {"MeoW Hub", "MEOW HUB", "meow hub", "free"}
+return DynamicFreeKeys
