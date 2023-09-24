@@ -1,5 +1,6 @@
 local DynamicKeyPremium = {
     "mwhubpremiumuser",
-    "MWHUBPREMIUMUSER"
+    "MWHUBPREMIUMUSER",
+    "premium"
 }
 return DynamicKeyPremium
