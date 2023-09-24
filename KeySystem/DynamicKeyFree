@@ -1,8 +1,7 @@
 local DynamicFreeKeys = {
-    "MeoW Hub", 
-    "MEOW HUB", 
-    "meow hub", 
-    "pizdec", 
-    "xyi"
+    "MeoW Hub",
+    "MEOW HUB",
+    "meow hub",
+    "pizdec"
     }
 return DynamicFreeKeys
