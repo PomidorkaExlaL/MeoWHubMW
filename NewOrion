@@ -14,9 +14,9 @@ local OrionLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(255, 255, 255), -- белый
-			Second = Color3.fromRGB(200, 200, 200), -- светло-серый
-			Stroke = Color3.fromRGB(150, 150, 150), -- серый
-			Divider = Color3.fromRGB(100, 100, 100), -- темно-серый
+			Second = Color3.fromRGB(144, 238, 144), -- мягко-яблочно-зеленый
+			Stroke = Color3.fromRGB(100, 180, 100), -- яблочно-зеленый
+			Divider = Color3.fromRGB(50, 120, 50), -- темно-яблочно-зеленый
 			Text = Color3.fromRGB(0, 0, 0), -- черный
 			TextDark = Color3.fromRGB(50, 50, 50) -- темно-серый
 		}
@@ -25,6 +25,7 @@ local OrionLib = {
 	Folder = nil,
 	SaveCfg = false
 }
+
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
