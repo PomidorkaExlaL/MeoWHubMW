@@ -14,9 +14,9 @@ local OrionLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(255, 255, 255), -- белый
-			Second = Color3.fromRGB(144, 238, 144), -- мягко-яблочно-зеленый
-			Stroke = Color3.fromRGB(100, 180, 100), -- яблочно-зеленый
-			Divider = Color3.fromRGB(50, 120, 50), -- темно-яблочно-зеленый
+			Second = Color3.fromRGB(220, 220, 220), -- светло-серый
+			Stroke = Color3.fromRGB(190, 190, 190), -- серый
+			Divider = Color3.fromRGB(160, 160, 160), -- темно-серый
 			Text = Color3.fromRGB(0, 0, 0), -- черный
 			TextDark = Color3.fromRGB(50, 50, 50) -- темно-серый
 		}
