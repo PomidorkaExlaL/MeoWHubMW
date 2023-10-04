@@ -1,6 +1,0 @@
-local DynamicKeyPremium = {
-    "TestKeyfffef",
-    "DevKey",
-    "tettt"
-}
-return DynamicKeyPremium
