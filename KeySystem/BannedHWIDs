@@ -1,5 +1,5 @@
 local bannedHWIDs = {
-    "hwid1",
+    "0EC6BCBE-A7F2-486F-AE50-864642629C20",
     "hwid2",
 }
 return bannedHWIDs
