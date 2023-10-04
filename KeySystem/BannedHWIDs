@@ -1,5 +1,5 @@
 local bannedHWIDs = {
-    "0EC6BCBE-A7F2-486F-AE50-864642629C20",
-    "hwid2",
+    "hwid1", --player name
+    "hwid2", --player name
 }
 return bannedHWIDs
