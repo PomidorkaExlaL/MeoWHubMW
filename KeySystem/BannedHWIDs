@@ -1,5 +1,6 @@
 local bannedHWIDs = {
     "712b9046-0533-453a-8b16-98bbd550e2c9", --Ysof_11
-    "hwid2", --player name
+    "0EC6BCBE-A7F2-486F-AE50-864642629C20", --i am here
+    "hwid3", --player name
 }
 return bannedHWIDs
