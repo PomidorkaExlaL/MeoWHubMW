@@ -1,1 +1,5 @@
-
+local bannedHWIDs = {
+    "hwid1",
+    "hwid2",
+}
+return bannedHWIDs
