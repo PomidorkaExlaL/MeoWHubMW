@@ -1,1 +1,14 @@
-script
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "MeoW HUB",
+   LoadingTitle = "DISCORD SERVER: MEOW HUB",
+   LoadingSubtitle = "Developer: MeoW0001",
+})
+
+local Tab = Window:CreateTab("🌙  Visuals", nil) -- Title, Image
+local Tab = Window:CreateTab("🔪  Combat", nil) -- Title, Image
+local Tab = Window:CreateTab("💸  Perks", nil) -- Title, Image
+local Tab = Window:CreateTab("📚  Other", nil) -- Title, Image
+local Tab = Window:CreateTab("🐉  Misc", nil) -- Title, Image
+
