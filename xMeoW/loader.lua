@@ -26,4 +26,4 @@ local MeowWindow = Rayfield:CreateWindow({
     }
 })
 
-loadstring(game:HttpGet(('redirect')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/xMeoW/redirect')))()
