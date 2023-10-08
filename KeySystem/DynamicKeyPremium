@@ -1,6 +1,0 @@
-local DynamicKeyPremium = {
-    "PremiumMWhub-1",
-    "MWHUBBESTSCRIPTS",
-    "mw_premium"
-}
-return DynamicKeyPremium
