@@ -1,7 +1,0 @@
-local DynamicFreeKeys = {
-    "MeoW Hub",
-    "MEOW HUB",
-    "meow hub",
-    "mw_free"
-}
-return DynamicFreeKeys
