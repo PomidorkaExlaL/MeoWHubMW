@@ -1,6 +1,6 @@
 local BanHWID = {
-    "712b9046-0533-453a-8b16-98bbd550e2c9", --Ysof_11
-    "hwid", --player name
-    "hwid", --player name
+    "712b9046-0533-453a-8b16-98bbd550e2c9", --[ Ysof_11 ]
+    "hwid", --[]
+    "hwid", --[]
 }
 return BanHWID
