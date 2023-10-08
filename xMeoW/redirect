@@ -1,0 +1,7 @@
+if game.PlaceId == 12978425304 then --Toy simulator
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/xMeoW/KeySystem')))()
+elseif game.PlaceId == 142823291 then --Murder Mystery 2
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PomidorkaExlaL/MeoWHubMW/main/xMeoW/KeySystem')))()
+else
+	game.Players.LocalPlayer:Kick("This place is not supported.")
+end
